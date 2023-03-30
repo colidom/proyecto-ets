@@ -7,6 +7,15 @@ body {
     height: 100vh;
 }
 
+header {
+    margin-top: 100px;
+    text-align: center;
+    font-size: larger;
+    color: #ffc107;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .login-box {
     width: 420px;
     height: 520px;
