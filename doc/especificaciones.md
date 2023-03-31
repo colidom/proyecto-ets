@@ -115,17 +115,82 @@ En el presente documento se realiza la especificación de los diferentes actores
 
 #### Consultar calendario
 
-| Caso de Uso CU.4    |  Consultar calendario     |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4). |
-| Actor            | Cliente y Barbero                                                                                                                                          |
-| Descripción        |  Consultar el calendario                                                                                                   |
-| Flujo básico     |                                                                                                                                                  |
-| Pre-condiciones  |                                                                                                                                                  |
-| Post-condiciones |                                                                                                                                                  |
-| Requerimientos   |                                                                                                                                                  |
-| Notas            |                                                                                                                                                  |
-| Autor            | _Carlos Oliva_                                                                                                                                   |
-| Fecha            | _20/01/23_                                                                                                                                       |
+| Caso de Uso CU.4 |  Consultar calendario     |
+| ---------------- | ------------------------- |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4).     |
+| Actor            | Cliente y Barbero         |
+| Descripción      | Consultar el calendario para comprobar disponibilidad   |
+| Flujo básico     |                           |
+| Pre-condiciones  | Estar autenticado         |
+| Post-condiciones |                           |
+| Requerimientos   |                           |
+| Notas            |                           |
+| Autor            | _Carlos Oliva_            |
+| Fecha            | _20/01/23_                |
+
+
+#### Elegir Servicio Peluquería
+
+| Caso de Uso CU.5 |  Elegir Servicio Peluquería     |
+| ---------------- | -------------------------       |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4).           |
+| Actor            | Cliente                         |
+| Descripción      | Elige servicio que quiere recibir            |
+| Flujo básico     |                                 |
+| Pre-condiciones  | Consultar calendario y ver disponibilidad    |
+| Post-condiciones |                                 |
+| Requerimientos   |                                 |
+| Notas            |                                 |
+| Autor            | _Carlos Oliva_                  |
+| Fecha            | _20/01/23_                      |
+
+
+#### Crear cita
+
+| Caso de Uso CU.6 |  Crear cita                     |
+| ---------------- | -------------------------       |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4).           |
+| Actor            | Cliente                         |
+| Descripción      | Crea una cita para el servicio que desea recibir  |
+| Flujo básico     |                                 |
+| Pre-condiciones  | Haber elegido un servicio       |
+| Post-condiciones | Realizar prepago para crear reserva               |
+| Requerimientos   |                                 |
+| Notas            |                                 |
+| Autor            | _Carlos Oliva_                  |
+| Fecha            | _20/01/23_                      |
+
+
+#### PrePago
+
+| Caso de Uso CU.7 |  PrePago                        |
+| ---------------- | -------------------------       |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4).           |
+| Actor            | Cliente                         |
+| Descripción      | Para crer una cita ha de hacer un prepago de 5€   |
+| Flujo básico     |                                 |
+| Pre-condiciones  | Haber creado una cita           |
+| Post-condiciones |                                 |
+| Requerimientos   |                                 |
+| Notas            |                                 |
+| Autor            | _Carlos Oliva_                  |
+| Fecha            | _20/01/23_                      |
+
+
+
+#### Pago Servicio
+| Caso de Uso CU.8 |  Pago Servicio                  |
+| ---------------- | -------------------------       |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4).           |
+| Actor            | Cliente                         |
+| Descripción      | Tras finalizar el servicio, puede pagar el total del servicio, descontando los 5€ del prepago             |
+| Flujo básico     |                                 |
+| Pre-condiciones  | Haber creado una cita           |
+| Post-condiciones |                                 |
+| Requerimientos   |                                 |
+| Notas            |                                 |
+| Autor            | _Carlos Oliva_                  |
+| Fecha            | _20/01/23_                      |
+
 
 </div>
