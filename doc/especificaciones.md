@@ -46,7 +46,7 @@ En el presente documento se realiza la especificación de los diferentes actores
 
 | Barbero         | Barbero                      |
 | --------------- | ---------------------------- |
-| Descripción     | El Barbero consulta el calendario de citas para comprobar el siguiente servicio a realizar              |
+| Descripción     | El Barbero consulta el calendario de citas para comprobar el siguiente servicio a realizar                 |
 | Características |  El Barbero se debe autenticar en el sistema |
 | Relaciones      |                              |
 | Referencias     |                              |
@@ -54,64 +54,79 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Autor           | _Carlos Oliva_               |
 | Fecha           | _29/03/2023_                 |
 
+
 #### Administrador
 
 | Administrador   | Administrador                |
-| --------------- | ---------------------------------------------------------------------- |
+| --------------- | ---------------------------- |
 | Descripción     | Administrador del sistema, puede hacer CRUD  |
-| Características | Puede crear, modificar, consultar, eliminar citas                                                                  |
-| Relaciones      |                                                                        |
-| Referencias     |                                                                        |
-| Notas           |                                                                        |
-| Autor           | _Carlos Oliva_                                                         |
-| Fecha           | _29/03/2023_                                                           |
+| Características | Puede crear,  modificar, consultar, eliminar citas                                            |
+| Rlaciones       |                              |
+| Referencias     |                              |
+| Notas           |                              |
+| Autor           | _Carlos Oliva_               |
+| Fecha           | _29/03/2023_                 |
+
+
+#### Cliente
+
+| Cliente         | Cliente                      |
+| --------------- | ---------------------------- |
+| Descripción     | Cliente del sistema, puede buscar en el calendario, elegir un servicio, crear cita y hacer prepago de la misma y finalmente pagar la totalidad del servicio                           |
+| Características | Puede crear, modificar, consultar, eliminar citas                                            |
+| Rlaciones       |                              |
+| Referencias     |                              |
+| Notas           |                              |
+| Autor           | _Carlos Oliva_               |
+| Fecha           | _29/03/2023_                 |
+
 
 ### Especificación de Casos de uso
 
 #### Gestionar citas
 
 | Caso de Uso CU.1 |  Gestionar citas |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4). |
-| Actor            | Administrador                                                                                                                                        |
-| Descripción      |  Administrador puede gestionar citas                                                                                                                |
-| Flujo básico             | Administrador se autentica y puede gestionar citas                                                                                                                                               |
-| Pre-condiciones  | Estar autenticado                                                                                                                                                 |
-| Post-condiciones |                                                                                                                                                  |
-| Requerimientos   |                                                                                                                                                  |
-| Notas            |                                                                                                                                                  |
-| Autor            | _Carlos Oliva_                                                                                                                                   |
-| Fecha            | _20/01/23_                                                                                                                                       |
+| ---------------- | --------------------------- |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4).       |
+| Actor            | Administrador               |
+| Descripción      | Administrador puede gestionar citas  |
+| Flujo básico     | Administrador se autentica y puede gestionar citas                                            |
+| Pre-condiciones  | Estar autenticado           |
+| Post-condiciones |                             |
+| Requerimientos   |                             |
+| Notas            |                             |
+| Autor            | _Carlos Oliva_              |
+| Fecha            | _20/01/23_                  |
 
 #### Confirma Asistencia
 
-|Caso de Uso CU.2  |  Confirma Asistencia       |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4). |
-| Actor            | Barbero                                                                                                                                          |
-| Descripción      | Tras consultar calendario el Barbero puede confirmar la cita del cliente antes de iniciar el servicio contratado por el mismo                                                                                                       |
-| Flujo básico     |                                                                                                                                                  |
-| Pre-condiciones  | Estar autenticado y consultar calendario                                                                                                                                                  |
-| Post-condiciones | Confirmar cita                                                                                                                                                 |
-| Requerimientos   |                                                                                                                                                  |
-| Notas            |                                                                                                                                                  |
-| Autor            | _Carlos Oliva_                                                                                                                                   |
-| Fecha            | _20/01/23_                                                                                                                                       |
+|Caso de Uso CU.2  |  Confirma Asistencia        |
+| ---------------- | --------------------------- |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4).       |
+| Actor            | Barbero                     |
+| Descripción      | Tras consultar calendario el Barbero puede confirmar la cita del cliente antes de iniciar el servicio contratado por el mismo |
+| Flujo básico     |                             |
+| Pre-condiciones  | Estar autenticado y consultar calendario         |
+| Post-condiciones | Confirmar cita              |
+| Requerimientos   |                             |
+| Notas            |                             |
+| Autor            | _Carlos Oliva_              |
+| Fecha            | _20/01/23_                  |
 
 #### Realiza Servicio
 
-|Caso de Uso CU.3  |  Realiza Servicio       |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4). |
-| Actor            | Barbero                                                                                                                                          |
-| Descripción      | Tras confirmar la cita el Barbero puede iniciar el servicio                                                                                                      |
-| Flujo básico     |                                                                                                                                                  |
-| Pre-condiciones  | Estar autenticado y confirmar la cita                                                                                                                                                  |
-| Post-condiciones |                                                                                                                                                 |
-| Requerimientos   |                                                                                                                                                  |
-| Notas            |                                                                                                                                                  |
-| Autor            | _Carlos Oliva_                                                                                                                                   |
-| Fecha            | _20/01/23_                                                                                                                                       |
+|Caso de Uso CU.3  |  Realiza Servicio           |
+| ---------------- | --------------------------- |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/colidom/proyecto-ets/issues/4).       |
+| Actor            | Barbero                     |
+| Descripción      | Tras confirmar la cita el Barbero puede iniciar el servicio           |
+| Flujo básico     |                             |
+| Pre-condiciones  | Estar autenticado y confirmar la cita |
+| Post-condiciones |                             |
+| Requerimientos   |                             |
+| Notas            |                             |
+| Autor            | _Carlos Oliva_              |
+| Fecha            | _20/01/23_                  |
 
 #### Consultar calendario
 
