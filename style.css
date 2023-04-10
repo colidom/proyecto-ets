@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(img/black.jpg) no-repeat center top;
+    background: url(img/Black\ texture\ background.jpg) no-repeat center top;
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
@@ -31,17 +31,16 @@ header {
 }
 
 .login-box .avatar {
-    width: 100px;
-    height: 100px;
+    width: 145px;
+    height: 140px;
     border-radius: 50%;
     position: absolute;
-    top: -50px;
-    left: calc(50% - 50px);
+    top: -30px;
+    left: calc(48% - 50px);
 }
 
 .login-box h1 {
-    margin: 0;
-    padding: 0 0 20px;
+    padding-top: 30px;
     text-align: center;
     font-size: 22px;
 }
@@ -94,4 +93,32 @@ header {
 
 .login-box a:hover {
     color: #fff;
+}
+
+/* Extra large devices*/
+@media (max-width:1220px){
+    body,header,.login-box {
+        font-size: 14px;
+    }
+}
+
+/* Large devices*/
+@media (max-width:992px){
+    body,header,.login-box {
+        font-size: 16px;
+    }
+}
+
+/* Medium devices*/
+@media (max-width:768px){
+    body,header,.login-box {
+        font-size: 18px;
+    }
+}
+
+/* Small devices*/
+@media (max-width:576px){
+    body,header,.login-box {
+        font-size: 20px;
+    }
 }
