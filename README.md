@@ -1,19 +1,20 @@
-# PROYECTO - ETS
-Repositorio del proyecto de ETS
+# PROJECT - Barber Shop Schedule & Management
 
-### Alumnos
+### Developers
 - Yerobe García González
 - Carlos Oliva Domínguez
 
-### Colaboradores
-#### Profesor
+### Contributors
+#### Teacher
 - Joatham Pérez Expósito
 
-#### Evaluadores
-- Alumno 1
-- Alumno 2
+#### Evaluators
+- Yamila
+- Ricardo
 
-## Requisitos
-- Descripción corta
-- Anteproyecto
-    - Consiste en definir los documentos y la documentación del proyecto
+Run app:
+> flask --app main run
+
+or
+
+> python3 -m flask --app main run
