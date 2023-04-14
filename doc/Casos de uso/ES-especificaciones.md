@@ -16,7 +16,7 @@ Una barbería quiere brindar la posibilidad a sus clientes elegir una fecha/hora
 
 
 <div align="center">
-  <img src="./CasosUso.drawio.png"/>
+  <img src="./ES-CasosUso.drawio.png"/>
 </div>
 
 ## Especificación de Casos de Uso:
