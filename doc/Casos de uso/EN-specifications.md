@@ -2,7 +2,7 @@
 <div align="justify">
 
 <div align="center">
-  <img src="img/head.png"/>
+  <img src="../bocetos/img/bg-head.png"/>
 </div>
 
 </br>
@@ -16,7 +16,7 @@ A barbershop wants to offer its customers the possibility to choose a date/time 
 
 
 <div align="center">
-  <img src="img/CasosUso.drawio.png"/>
+  <img src="./CasosUso.drawio.png"/>
 </div>
 
 ## Use Cases Specification:
