@@ -1,4 +1,4 @@
-## Especificaciones Casos de Uso
+## Use Cases Specifications
 <div align="justify">
 
 <div align="center">
