@@ -2,7 +2,7 @@
 <div align="justify">
 
 <div align="center">
-  <img src="img/head.png"/>
+  <img src="../bocetos/img/bg-head.png"/>
 </div>
 
 </br>
@@ -16,7 +16,7 @@ Una barbería quiere brindar la posibilidad a sus clientes elegir una fecha/hora
 
 
 <div align="center">
-  <img src="img/CasosUso.drawio.png"/>
+  <img src="./CasosUso.drawio.png"/>
 </div>
 
 ## Especificación de Casos de Uso:
