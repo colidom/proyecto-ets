@@ -12,6 +12,10 @@
 - Yamila
 - Ricardo
 
+Requirements:
+> Python 3.0 or later
+> pip install flask
+
 Run app:
 > flask --app main run
 
