@@ -26,7 +26,7 @@ Una barbería quiere brindar la posibilidad a sus clientes elegir una fecha/hora
 -   [Introducción](#introducción).
 -   [Descripción](#descripción).
 -   [Especificación de actores](#especificación-de-actores).
--   [Especificación de casos de uso](#especificación-de-casos-de-uso-1).
+-   [Especificación de casos de uso](#especificación-de-casos-de-uso).
 
 ### Introducción
 
