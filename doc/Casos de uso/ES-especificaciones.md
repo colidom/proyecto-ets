@@ -26,7 +26,7 @@ Una barbería quiere brindar la posibilidad a sus clientes elegir una fecha/hora
 -   [Introducción](#introducción).
 -   [Descripción](#descripción).
 -   [Especificación de actores](#especificación-de-actores).
--   [Especificación de casos de uso](#especificación-de-casos-de-uso).
+-   [Especificación de casos de uso](#especificación-de-casos-de-usos).
 
 ### Introducción
 
@@ -81,7 +81,7 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Fecha           | _29/03/2023_                 |
 
 
-### Especificación de Casos de uso
+### Especificación de Casos de usos
 
 #### Gestionar citas
 
