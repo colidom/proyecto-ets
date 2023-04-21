@@ -23,10 +23,10 @@ A barbershop wants to offer its customers the possibility to choose a date/time 
 
 ## Índice
 
--   [Introduction](#introduction).
--   [Description](#description).
--   [Specification of actors](#actors-specifications).
--   [Use Cases Specification](#use-case-specification).
+-   [Introduction](#introduction)
+-   [Description](#description)
+-   [Specification of actors](#actors-specifications)
+-   [Use Cases Specification](#use-case-specification)
 
 ### Introduction
 
