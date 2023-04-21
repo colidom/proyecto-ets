@@ -25,7 +25,7 @@ A barbershop wants to offer its customers the possibility to choose a date/time 
 
 -   [Introduction](#introduction).
 -   [Description](#description).
--   [Specification of actors](#actor-specification).
+-   [Specification of actors](#actors-specifications).
 -   [Use Cases Specification](#use-case-specification).
 
 ### Introduction
@@ -81,7 +81,7 @@ This document specifies the different actors involved in the proposed solution.
 | Date            | _29/03/2023_                 |
 
 
-### Use Cases Specification
+### Use Case Specification
 
 #### Manage appointments
 
