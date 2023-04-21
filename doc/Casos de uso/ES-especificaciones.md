@@ -23,10 +23,10 @@ Una barbería quiere brindar la posibilidad a sus clientes elegir una fecha/hora
 
 ## Índice
 
--   [Introducción](#introducción).
--   [Descripción](#descripción).
--   [Especificación de actores](#especificación-de-actores).
--   [Especificación de casos de uso](#especificación-de-casos-de-usos).
+-   [Introducción](#introducción)
+-   [Descripción](#descripción)
+-   [Especificación de actores](#especificación-de-actores)
+-   [Especificación de casos de uso](#especificación-de-casos-de-usos)
 
 ### Introducción
 
